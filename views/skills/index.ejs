@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index-express-dev-skills</title>
+</head>
+<body>
+    <ul>
+        <% skills.forEach(function(s) { %>
+          <li>
+            <a href="/skills/<%= s.id %>"><%= s.skill %></a>
+            <%# s.skill %>
+              - 
+            <%= s.done ? 'done' : 'not done' %>
+          </li>
+        <% }); %>
+      </ul>
+</body>
+</html>
