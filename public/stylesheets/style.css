@@ -4,5 +4,21 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: deeppink;
+  font-size: 20px;
+}
+
+h1 {
+  background-color: orange;
+}
+h3 {
+  color: orange;
+}
+
+ul {
+  color: red;
+}
+
+p {
+  color: darkgreen;
 }
