@@ -13,10 +13,6 @@ module.exports = {
 function index(req, res, next) {
     res.render('skills/index', {
         skills: skillDB.getAll()
-        // skills: [
-        //     {skill: 'takewondo', level: 3, id: 100},
-        //     {skill: 'stuff', level: 5, id: 12232},
-        // ]
     })
 }
 
