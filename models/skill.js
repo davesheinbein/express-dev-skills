@@ -37,6 +37,6 @@ const skills = [
   }
 
   function update(id, skill) {
-    const skillObj = skills.find(t => s.id === parseInt(id));
+    const skillObj = skills.find(s => s.id === parseInt(id));
     Object.assign(skillObj, skill);
   }
